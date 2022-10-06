@@ -1,1 +1,1 @@
-web: gunicorn btre-mukund.wsgi --log-file -
+web: gunicorn btre-mukund.wsgi
