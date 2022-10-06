@@ -1,1 +1,1 @@
-web:gunicorn btre-mukund.wsgi
+web: gunicorn btre-mukund.wsgi
