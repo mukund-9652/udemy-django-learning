@@ -137,6 +137,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 MEDIA_URL='/media/'
 
+EMAIL_HOST_USER='sit19cs040@sairamtap.edu.in'
+EMAIL_HOST_PASSWORD=''
 try:
     from .local_settings import *
 except ImportError:
